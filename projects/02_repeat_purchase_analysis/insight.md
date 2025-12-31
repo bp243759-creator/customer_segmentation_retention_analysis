@@ -4,8 +4,8 @@
 ## Customer Segmentation Summary
 Customer dikategorikan berdasarkan jumlah transaksi:
 - **One-time Buyer**: 1 transaksi
-- **Medium Repeat Buyer**: 2–4 transaksi
-- **High Value Repeat Buyer**: >4 transaksi
+- **Medium Repeat Buyer**: 2–5 transaksi
+- **High Value Repeat Buyer**: >5 transaksi
 
 ## Key Findings
 - One-time buyer menyumbang transaksi tertinggi (432 transaksi).
