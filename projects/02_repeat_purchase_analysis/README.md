@@ -26,13 +26,19 @@ Online Retail Dataset.
 3. Menghitung jumlah transaksi yang dihasilkan oleh setiap kategori customer.
 4. Membandingkan kontribusi transaksi antar segmen customer.
 
-## Key Insights
-- One-time buyer menyumbang jumlah transaksi tertinggi dengan total 432 transaksi.
-- Medium repeat buyer menghasilkan 295 transaksi.
-- High repeat buyer hanya menyumbang 79 transaksi, meskipun merupakan customer dengan tingkat repeat tertinggi.
+## Key Findings
+- One-time buyer menyumbang transaksi tertinggi (432 transaksi).
+- Medium repeat buyer memberikan kontribusi signifikan (125 transaksi).
+- High value repeat buyer memiliki kontribusi paling kecil (6 transaksi).
 
-## Business Impact
-Insight ini menunjukkan bahwa:
-- Mayoritas transaksi masih didominasi oleh one-time buyer.
-- Strategi retensi pelanggan memiliki potensi besar untuk meningkatkan transaksi jangka panjang.
-- Mendorong customer medium menjadi high repeat buyer dapat memberikan dampak signifikan terhadap pertumbuhan bisnis.
+## Business Interpretation
+- Mayoritas pelanggan hanya melakukan satu kali pembelian, mengindikasikan
+  rendahnya tingkat retensi customer.
+- Pelanggan dengan nilai tinggi masih sangat sedikit namun berpotensi memberikan
+  revenue berkelanjutan.
+- Terdapat peluang besar untuk meningkatkan repeat purchase melalui strategi retensi.
+
+## Business Recommendation
+- Menerapkan program loyalty atau diskon khusus untuk one-time buyer.
+- Mengirimkan reminder atau promo personal kepada medium repeat buyer.
+- Memberikan reward eksklusif untuk mempertahankan high value repeat buyer.
