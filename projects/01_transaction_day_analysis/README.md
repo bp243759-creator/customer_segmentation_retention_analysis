@@ -1,32 +1,38 @@
-# Transaction Day Analysis
+Transaction Day Analysis
 
-## Business Problem
-Mengetahui hari dengan jumlah transaksi tertinggi untuk membantu perencanaan stok dan efisiensi operasional.
+Business Problem
 
-## Objective
-Menganalisis distribusi transaksi berdasarkan hari dalam seminggu untuk mengidentifikasi pola transaksi tertinggi dan terendah.
+UMKM retail perlu memahami pola transaksi harian untuk mengoptimalkan perencanaan stok dan efisiensi operasional.
 
-## Dataset
-Online Retail Dataset.
+Objective
 
-## Assumptions
-- Satu invoice merepresentasikan satu transaksi.
-- Satu transaksi dapat memiliki lebih dari satu baris item.
-- Analisis menggunakan invoice unik untuk menghindari duplikasi transaksi.
+Menganalisis distribusi jumlah transaksi berdasarkan hari dalam seminggu guna mengidentifikasi hari dengan volume transaksi tertinggi dan terendah.
 
-## Analysis Steps
-1. Menghilangkan duplikasi transaksi dengan menggunakan invoice unik.
-2. Mengekstrak nama hari dari invoice date.
-3. Menghitung jumlah transaksi per hari.
-4. Mengurutkan hari berdasarkan jumlah transaksi.
+Dataset
 
-## Key Insights
-- Hari dengan jumlah transaksi tertinggi adalah hari Jumat.
-- Hari Selasa dan Kamis juga menunjukkan volume transaksi yang tinggi.
-- Hari dengan transaksi terendah adalah hari Minggu.
+Online Retail Dataset, yang berisi data transaksi penjualan ritel termasuk informasi invoice, tanggal transaksi, dan pelanggan.
 
-## Business Impact
-Insight ini dapat digunakan untuk:
-- Menambah stok pada hari dengan volume transaksi tinggi.
-- Mengoptimalkan tenaga kerja dan operasional berdasarkan pola transaksi harian.
-- Meningkatkan efisiensi manajemen inventori.
+Assumptions
+	•	Satu invoice merepresentasikan satu transaksi.
+	•	Satu transaksi dapat terdiri dari lebih dari satu baris item.
+	•	Analisis menggunakan invoice unik untuk menghindari duplikasi transaksi.
+
+Analysis Steps
+	1.	Menghilangkan duplikasi transaksi dengan menggunakan invoice unik.
+	2.	Mengekstrak nama hari dari kolom invoice date.
+	3.	Menghitung jumlah transaksi per hari.
+	4.	Mengurutkan hari berdasarkan jumlah transaksi untuk mengidentifikasi pola volume transaksi.
+
+Key Findings
+	•	Hari Jumat memiliki jumlah transaksi tertinggi.
+	•	Hari Selasa dan Kamis menunjukkan volume transaksi yang relatif tinggi.
+	•	Hari Minggu merupakan hari dengan jumlah transaksi terendah.
+
+Business Interpretation
+
+Pola transaksi menunjukkan adanya peningkatan aktivitas pembelian menjelang akhir pekan, khususnya pada hari Jumat. Aktivitas transaksi yang cukup tinggi pada hari Selasa dan Kamis mengindikasikan adanya pola belanja di pertengahan minggu, sementara rendahnya transaksi di hari Minggu menunjukkan potensi underutilized sales opportunity.
+
+Business Recommendation
+	•	Meningkatkan kesiapan stok dan operasional pada hari Jumat, Selasa, dan Kamis untuk mengantisipasi lonjakan permintaan.
+	•	Menyesuaikan alokasi tenaga kerja berdasarkan pola transaksi harian guna meningkatkan efisiensi operasional.
+	•	Menguji strategi promosi atau diskon khusus pada hari Minggu untuk mendorong peningkatan volume transaksi.
