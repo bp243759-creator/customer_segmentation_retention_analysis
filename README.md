@@ -15,6 +15,9 @@ pengambilan keputusan bisnis terkait operasional, manajemen stok, serta strategi
 ## Projects
 
 ### 01. Transaction Day Analysis
+**Dashboard Preview:**
+
+![Transaction by Day](visuals/transaction_by_day.png)
 
 **Objective:**
 Mengidentifikasi hari dengan jumlah transaksi tertinggi untuk mendukung perencanaan stok
