@@ -23,7 +23,7 @@ dan efisiensi operasional.
 
 ---
 
-### 02. Repeat Purchase Analysis
+### 02. Repeat Purchase & Customer Segmentation Analysis
 **Objective:**  
 Menganalisis perilaku repeat purchase customer berdasarkan jumlah transaksi.
 
